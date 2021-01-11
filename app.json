@@ -1,14 +1,22 @@
 {
+  "name": "Esp32React",
+  "displayName": "Esp32React",
   "expo": {
     "name": "react-native-esp32",
     "slug": "react-native-esp32",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/react-logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/react-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#dddddd"
+    },
+    "primaryColor": "#dddddd",
+    "privacy": "public",
+    "androidNavigationBar": {
+      "barStyle": "light-content",
+      "visible": "sticky-immersive"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
